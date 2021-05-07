@@ -1,6 +1,17 @@
 # Algorithmic trading
 A python script which buys and sells stocks or cryptocurrencies automatically 
 
+## How to use
+- Open the indiannse.py for stock trading and enter the stock symbol to continue.
+- Open the crypto.py for crypo trading and enter the crypto symbol to continue.
+
+## Stock Data
+- The script uses web scraping to get the price details from yahoo finance based on which the decisions are made.
+
+## Disclaimer
+
+This project is under development and is not fully completed. So it might have few errors which will be solved to improve the effectiveness of the algorithm.
+
 ## The Algorithm
 
 The algorithm is based on a simple formula. The bot buys the stock as soon as the script starts running. When the price of stock drops below the threshold value, the bot sells the 
@@ -67,6 +78,6 @@ So if the stock price goes beyond the above value, the stock is bought automatic
 - A PC or laptop which should run 24/7 and be able to run and process information all day
 - A trading account
 
-## Disclaimer
+## Note
+- Feel free to use the code and update it to improve the effectiveness and tackle the errors.
 
-This project is under development and is not fully completed. So it might have few errors which will be solved to improve the effectiveness of the algorithm.
