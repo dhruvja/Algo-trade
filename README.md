@@ -22,7 +22,7 @@ changes every second.
 
 Threshold limit is 0.04% of the price of stock at the time of buy/sell.
 
-#### When the stock is bought
+#### When the stock is sold
 
 As the value of the stock increases, the threshold value is the threshold limit subtracted by the highest stock price.
 If the highest stock price is suppose 50000 and threshold limit is 20
@@ -34,7 +34,7 @@ threshold value = highest value - threshold value
 So if the stock price goes below the above value, the stock is sold automatically.
 
 
-#### When the stock is sold
+#### When the stock is bought
 
 As the value of stock decreases, the threshold value is the sum of threshold limit and lowest stock price.
 If the lowest price is suppose 40000 and threshold limit is 20 
